@@ -1,0 +1,30 @@
+<div w11k-slide-master="code" class="code-example">
+  <div w11k-slide-part-source="header">
+    Codebeispiel zum Einstieg
+  </div>
+
+  <div w11k-slide-part-source="content">
+    <p>
+      NativeScript + Angular2 + TypeScript
+    </p>
+    <!--@formatter:off-->
+    <pre class="margin-top-30" w11k-pretty-print lang="javascript">
+import {Component} from "@angular/core";
+
+@Component({
+    selector: "my-app",
+    template: `
+&lt;StackLayout&gt;
+    &lt;Label text="Drücke den Button" class="title">&lt;/Label&gt;
+    &lt;Button text="Button" (tap)="onTap()"&gt;&lt;/Button&gt;
+&lt;/StackLayout&gt;
+`
+})
+export class AppComponent {
+    public onTap() {
+        console.log("Ich wurde geklickt");
+    }
+}</pre>
+    <!--@formatter:on-->
+  </div>
+</div>

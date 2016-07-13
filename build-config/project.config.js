@@ -56,7 +56,8 @@ module.exports = {
         'angular-bootstrap/ui-bootstrap-tpls.js',
         'google-code-prettify/src/prettify.js',
         'w11k-slides/dist/w11k-slides.js',
-        'w11k-slides/dist/w11k-slides.tpl.js'
+        'w11k-slides/dist/w11k-slides.tpl.js',
+        'video.js/dist/video.js'
       ],
       js_mock: [
       ],
@@ -65,6 +66,7 @@ module.exports = {
       js_e2e: [
       ],
       css: [
+        'video.js/dist/video-js.css'
       ],
       assets: [
       ]

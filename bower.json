@@ -6,6 +6,7 @@
     "angular-bootstrap": "0.14.1",
     "twbs-bootstrap-sass": "3.3.5",
     "w11k-slides": "0.13.0",
-    "font-awesome": "~4.5.0"
+    "font-awesome": "~4.5.0",
+    "video.js": "^5.10.7"
   }
 }
