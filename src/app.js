@@ -9,8 +9,8 @@
 
       '0-intro/about-us',
 
-      '1-example/example-title',
-      '1-example/example',
+      '1-jsgoesmobile/jsgoesmobile-title',
+      '1-jsgoesmobile/jsgoesmobile',
 
       '2-history/native-title',
       '2-history/native',
