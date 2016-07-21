@@ -43,7 +43,9 @@
 
       '6-setup/nativescript-setup-title',
       '6-setup/nativescript-setup',
-      '6-setup/example-in-vscode',
+
+      '7-livecoding/live-coding-title',
+      '7-livecoding/live-coding-content',
 
       'fragen',
       'end',
