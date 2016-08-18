@@ -1,27 +1,13 @@
-
-$entwicklertag_1: #2D5352;
-$entwicklertag_2: #71ac8a;
-
-$tcc_orange: $entwicklertag_2;
-$tcc-gray: $entwicklertag_1;
+$tcc_orange: #ed5502;
+$tcc-gray: #1c2330;
 $tcc-gray-light: lighten($tcc-gray, 20%);
 $tcc-gray-lighter: lighten($tcc-gray, 40%);
 $tcc-gray-lightest: lighten($tcc-gray, 78%);
-$tcc-quote-highlight: $entwicklertag_2;
-
-$tcc-gradient-orange-start: $entwicklertag_1;
-$tcc-gradient-orange-end: lighten($tcc-gradient-orange-start, 8%);
-
-$tcc-slide-title-background: linear-gradient(to right, $entwicklertag_2, lighten($entwicklertag_2, 8%));
-$tcc-slide-title-center-background: linear-gradient(to right, $entwicklertag_1, lighten($entwicklertag_1, 8%));
-
-$tcc-regular-header-background: linear-gradient(to right, $entwicklertag_1, lighten($entwicklertag_1, 8%));
-$tcc-regular-footer-background: linear-gradient(to left, $entwicklertag_1, lighten($entwicklertag_1, 8%));
-
-$tcc-slide-end-background: $tcc-slide-title-background;
-@import "boxed-variables";
-
-
+$tcc-gradient-orange-start: #fc9253;
+$tcc-gradient-orange-end: #f26135;
+$tcc-code-bg-1: desaturate($tcc-gray-lightest, 50%);
+$tcc-code-bg-2: darken($tcc-code-bg-1, 5%);
+$tcc-code-bg-3: darken($tcc-code-bg-1, 20%);
 
 // ****************************************************************************************************
 // general
@@ -81,58 +67,31 @@ $w11k-prettyPrint-line-color-highlight: $tcc-code-bg-3;
 // ****************************************************************************************************
 
 .tcc-2016 {
-
   .slides > .slide-container > div > .slide {
 
-    a {
-      color: black;
-      text-decoration: none;
-
-      &[href^="#"] {
-        color: black;
-      }
-
-      &[href^="http"], &[href^="mailto"] {
-        color: black;
-        text-decoration: underline;
-      }
-
-    }
-
-    &.master-regular {
-      > .content {
-        font-size: 1.2em;
-        blockquote {
-          font-size: 1.0em;
-        }
-      }
-    }
-
     &.title {
-      justify-content: space-around;
 
-      .center {
-        margin-top: -5em;
-        margin-bottom: -5em;
-      }
-
-      .bottom {
-        .content {
-          color: white;
-        }
-      }
     }
 
-    &.master-regular, &.master-section-title {
-      > .header {
-        .logo {
-          width: 5em;
-          margin: 0.3em;
-          margin-right: 60px;
-          background: url('assets/images/entwicklertag-karlsruhe-logo-mini-white.svg') right center no-repeat;
-          background-size: contain;
+    &.end {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+
+      background: linear-gradient(to right, $tcc-gradient-orange-start, $tcc-gradient-orange-end);
+
+      > div {
+        text-align: center;
+        color: white;
+        a, a:visited, a[href^="http"], a[href^="mailto"] {
+          color: white;
+          text-decoration: none;
         }
       }
+
     }
   }
 }

@@ -1,14 +1,14 @@
 {
-  "name": "tcc-angular2-basic-slides",
+  "name": "js-goes-mobile-presentation",
   "version": "1.0.0",
   "private": true,
   "author": {
-    "name": "Dragan Zuvic",
+    "name": "Frederik von Berg",
     "email": "",
     "web": "http://blog.thecodecampus.de/"
   },
   "homepage": "http://www.thecodecampus.de",
-  "description": "Slides and sample code for JSR308 talk at etka",
+  "description": "Slides and sample code for JS goes Mobile talk",
 
   "scripts": {
     "watch": "grunt dev",
@@ -17,7 +17,7 @@
 
   "repository": {
     "type": "git",
-    "url": "https://github.com/dzuvic/slides-readable-code"
+    "url": "https://github.com/fvonberg/js-goes-mobile-presentation"
   },
 
   "dependencies": {},
