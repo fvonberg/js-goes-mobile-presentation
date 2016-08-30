@@ -4,6 +4,7 @@
   /* @ngInject */
   function configureSlides(slidesConfig) {
     slidesConfig.slides = [
+      'contest',
       'title',
       'overview',
 
@@ -48,6 +49,7 @@
       '7-livecoding/live-coding-content',
 
       'fragen',
+      'contest.end',
       'end',
       'quellen'
     ];
